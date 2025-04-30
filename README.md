@@ -80,6 +80,7 @@ Copyright (c) 2024 Ankou. Tous droits réservés.
 
 ## Contact
 Pour tout bug ou suggestion, contactez-moi sur Discord : **ankou4**
+Vous pouvez aussi utiliser le salon discord : https://discord.gg/nAN5rTxfHA
 
 Pour un suivi optimal :
 - Décrivez clairement le problème rencontré
