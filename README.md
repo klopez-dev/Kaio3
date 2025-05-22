@@ -1,94 +1,96 @@
 # Kaio3
 
-## Description
-Kaio3 est un gestionnaire de multicompte pour Dofus qui permet de gérer facilement plusieurs fenêtres de jeu via des raccourcis clavier. Développé avec PyQt6, il offre une interface moderne et intuitive pour améliorer votre expérience de jeu multicopte.
+Kaio3 est un gestionnaire de fenêtres et d'objectifs optimisé pour Dofus, permettant de gérer facilement vos fenêtres de jeu et de suivre vos objectifs.
 
-## Fonctionnalités
-- 🖥️ Gestion des fenêtres Dofus et Ankama Launcher
-- ⌨️ Attribution de raccourcis clavier personnalisés
-- 🔄 Rafraîchissement automatique de la liste des fenêtres
-- 🔍 Filtre "Only Dofus" pour n'afficher que les fenêtres de jeu
-- 🎯 Passage rapide entre les fenêtres via raccourcis
-- 🖼️ **Gestion avancée des icônes Windows** (meilleure compatibilité, logos spéciaux pour Dofus et Ankama Launcher.)
-- ❌ Fermeture facile des fenêtres depuis l'interface
-- 💬 Accès rapide au serveur Discord de la communauté
-- 🖱️ Interface redimensionnable et support du mode plein écran
+## 📋 Fonctionnalités
 
-## Installation
-1. Téléchargez la dernière version de Kaio3.exe
-2. Aucune installation nécessaire, le logiciel est portable
-3. Double-cliquez sur Kaio3.exe pour lancer l'application
+- **Gestion des fenêtres Dofus**
+  - Raccourcis clavier personnalisables pour chaque fenêtre
+  - Mise en avant rapide des fenêtres
+  - Filtrage des fenêtres Dofus uniquement
+  - Rafraîchissement automatique de la liste des fenêtres
 
-## Utilisation
-1. Lancez Kaio3.exe
-2. Attendez la fin de l'écran de chargement
-3. La liste des fenêtres disponibles s'affiche automatiquement
-4. Pour définir un raccourci :
-   - Cliquez sur "Définir un raccourci" pour la fenêtre souhaitée
-   - Appuyez sur la touche que vous voulez utiliser comme raccourci
-   - Le raccourci est immédiatement actif
-5. Utilisez la case à cocher "Only Dofus" pour filtrer uniquement les fenêtres Dofus
-6. Le bouton "Refresh" permet de mettre à jour la liste des fenêtres
-7. Cliquez sur l'icône Discord pour rejoindre la communauté
+- **Gestion des objectifs (Todo)**
+  - Création de listes d'objectifs personnalisées
+  - Suivi de la progression
+  - Fenêtre flottante pour un accès rapide
+  - Réorganisation automatique des tâches (complétées en bas)
+  - Support des liens cliquables dans les objectifs
 
-## Raccourcis
-- Les raccourcis sont personnalisables pour chaque fenêtre
-- Évitez d'utiliser les touches Ctrl, Alt, Shift et Windows seules
-- Les raccourcis restent actifs même si Kaio3 est en arrière-plan
-- Les raccourcis sont automatiquement supprimés à la fermeture des fenêtres
+- **Phrases rapides**
+  - Stockage de phrases fréquemment utilisées
+  - Copie rapide dans le presse-papiers
+  - Organisation par profils
 
-## Configuration requise
-- Windows 10 ou supérieur
-- Résolution d'écran minimale : 800x600
-- Pas de droits administrateur requis
+- **Ressources utiles**
+  - Guide d'XP et de succès par niveau
+  - Liens vers les fansites Dofus
+  - Filtrage et recherche des donjons et succès
 
-## Support et Communauté
-- Discord : [Rejoindre le serveur](https://discord.gg/nAN5rTxfHA)
-- Contact : ankou4 sur Discord
+## 💻 Configuration requise
 
-## Développement
-Si vous souhaitez compiler le projet vous-même :
+- **Système d'exploitation**
+  - Windows 10 ou supérieur
+  - Windows 11
 
-### Prérequis
-```bash
-pip install PyQt6
-pip install pywin32
-pip install keyboard
-pip install pyinstaller
-```
+- **Dépendances**
+  - Python 3.8 ou supérieur
+  - PyQt5
+  - pywin32
+  - keyboard
 
-### Compilation
-```bash
-pyinstaller kaio3.spec
-```
+## 📦 Installation
 
-## Problèmes connus
-- Certaines fenêtres système ou web peuvent ne pas afficher leur icône spécifique ou afficher une icône générique (limitation Windows).
-- Les raccourcis peuvent nécessiter des droits administrateur sur certains systèmes.
-- Pour les applications système, vous pouvez ajouter des icônes personnalisées dans le dossier de l'application (ex : `CalculatorIcon.png`, `SettingsIcon.png`).
+1. Téléchargez la dernière version depuis la [page des releases](https://github.com/Ankouh/Kaio3/releases)
+2. Exécutez le fichier `Kaio3.exe`
 
-## Conseils
-- Pour une meilleure expérience visuelle, ajoutez vos propres icônes PNG dans le dossier de l'application et adaptez le code si besoin.
+## 🔧 Utilisation
 
-## Sécurité
-- Le logiciel ne collecte aucune donnée
-- Les raccourcis sont stockés uniquement en mémoire
-- Aucune modification n'est apportée aux fichiers du jeu
+1. Lancez Kaio3
+2. Créez un profil ou sélectionnez un profil existant
+3. Dans l'onglet "Fenêtres", sélectionnez une fenêtre et appuyez sur une touche pour lui attribuer un raccourci
+4. Utilisez les autres onglets pour gérer vos objectifs, phrases rapides et accéder aux ressources
 
-## Licence
-Copyright (c) 2024 Ankou. Tous droits réservés.
+## 📝 Notes
 
-## Contact
-Pour tout bug ou suggestion, contactez-moi sur Discord : **ankou4**
-Vous pouvez aussi utiliser le salon discord : https://discord.gg/nAN5rTxfHA
+- Les profils sauvegardent automatiquement :
+  - Vos raccourcis clavier
+  - Vos listes d'objectifs
+  - Vos phrases rapides
+  - L'ordre de vos onglets
 
-Pour un suivi optimal :
-- Décrivez clairement le problème rencontré
-- Précisez votre version de Windows
-- Indiquez les étapes pour reproduire le bug
-- Si possible, joignez une capture d'écran
+## 🤝 Contribution
 
-## Notes
-- Dofus est une marque déposée d'Ankama Games
-- Kaio3 n'est pas affilié à Ankama Games
-- Utilisez ce logiciel en conformité avec les conditions d'utilisation de Dofus 
+Les contributions sont les bienvenues ! N'hésitez pas à :
+- Signaler des bugs
+- Proposer des améliorations
+- Soumettre des pull requests
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📞 Support
+
+Pour toute question ou problème :
+- Rejoignez notre [serveur Discord](https://discord.gg/nAN5rTxfHA)
+- Ouvrez une issue sur GitHub
+
+## 🔄 Mises à jour
+
+### Version actuelle : v1.1
+
+**Nouveautés :**
+- Ajout du guide d'XP et de succès
+- Amélioration de la gestion des objectifs
+- Interface utilisateur modernisée
+- Correction de bugs et optimisations
+
+**Versions précédentes :**
+- v1.0 : Version initiale
+
+## 🙏 Remerciements
+
+- Merci à tous les contributeurs
+- Merci à la communauté Dofus pour son soutien
+- Merci aux fansites référencés pour leurs ressources 
